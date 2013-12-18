@@ -1,0 +1,25 @@
+* {
+	margin:0px;
+	padding:0px;
+	color:white;
+	background: #2b9787;
+}
+#introduction h1 {
+	font: 90px 'Lato Light';
+	padding-top:125px;
+	line-height:115%;
+	animation-delay:50;
+}
+#introduction h2 {
+	font: 40px 'Lato Light';
+	padding-bottom: 190px;
+	line-height:90%;
+}
+body {
+	text-align: center;
+	width: 100%;
+	display: -webkit-box;
+	-webkit-box-pack: center;
+	-webkit-box-flex: 1;
+	
+}
