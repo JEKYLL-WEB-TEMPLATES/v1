@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang=en>
+<head>
+<meta charset=utf-8 />
+<title>Blog - Joshua Raichur</title>
+<link rel=stylesheet href=css/style.css>
+<script type=text/javascript src=https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js></script>
+<script type=text/javascript src=js/canvas.js></script>
+<script type=text/javascript src=js/lang.js></script>
+<link rel=stylesheet href=css/media-queries.css>
+<script src=js/script.js></script>
+<script src=js/blog.js type=text/javascript></script>
+<script type=text/javascript src=js/jquery.smooth-scroll.js></script>
+<link rel="shortcut icon" href=images/icons/favicon.ico>
+<meta name=description content="I'm Joshua Raichur, your atypical youngster driven by curiosity and a constant desire to learn new things and improve my skills. This website includes my design portfolio and blog. Learn more about me and my affinity to all things tech." />
+<meta name=keywords content="Blog, Technology, Tech, Web, Design, Illustrator, Photoshop, HTML, CSS, Media, Digital Designer, Joshua, Raichur, Joshua Raichur, Tutorials, Multimedia, Geek, Apple, Guitar, Android, Google, Website, Cool, Awesome, UI, Blog, Portfolio, Graphics Designing, Music" />
+<meta name=author content="Joshua Raichur">
+<style>
+.current-li {
+	font-weight: bold;
+	transition: .6s;
+	-webkit-transition: .6s;
+	-moz-transition: .6s;
+	-o-transition: .6s;
+	-ms-transition: .6s;
+}
+.current {
+		transition: .6s;
+	-webkit-transition: .6s;
+	-moz-transition: .6s;
+	-o-transition: .6s;
+	-ms-transition: .6s;
+	-webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	-o-transform: scale(1.05);
+	-ms-transform: scale(1.05);
+	transform: scale(1.05);
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-o-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+.not-current {
+	-webkit-transform: scale(0.75);
+	-moz-transform: scale(0.75);
+	-o-transform: scale(0.75);
+	-ms-transform: scale(0.75);
+	transform: scale(0.75);
+	-webkit-filter: grayscale(1)!important;
+	transition: .6s;
+	-webkit-transition: .6s;
+	-moz-transition: .6s;
+	-o-transition: .6s;
+	-ms-transition: .6s;
+}
+.not-current:hover dl {
+	opacity: 0!important;
+	transition: .6s;
+	-webkit-transition: .6s;
+	-moz-transition: .6s;
+	-o-transition: .6s;
+	-ms-transition: .6s
+}
+.blog {
+	alignment-adjust: middle;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	padding: 0!important;
+	font-family: 'Lato';
+	alignment-adjust: middle;
+	transition:0.6s;
+	-webkit-transition: 0.6s;
+	-moz-transition: 0.6s;
+	-o-transition: 0.6s;
+	-ms-transition: 0.6s;
+	
+}
+.blog h1 {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 16px;
+	background: white;
+	border-top-left-radius: 2px;
+	border-top-right-radius: 2px;
+	font-family: 'Lato';
+	width: 700px;
+	alignment-adjust: middle;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	color: #555;
+	text-transform: uppercase
+}
+
+.blog p {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	line-height: 23px;
+	margin-bottom: 60px;
+	font-size: 16px;
+	background: white;
+	border-top-left-radius: 2px;
+	border-top-right-radius: 2px;
+	font-family: 'Lato';
+	alignment-adjust: middle;
+	text-align: left;
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	color: #555;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+#disqus {
+	width: 980px;
+	color:#16A085;
+	background:#FFF;
+	font-family:'Lato';
+}
+</style>
+<!--[if IE]>
+<meta http-equiv=refresh content="0;url=ie.html">
+<![endif]-->
+</head>
+<body>
+<div id=big_wrapper>
+<nav id=nav class="nav list">
+<ul>
+<a href=http://www.joshuaraichur.com><li>Home</li></a>
+<a href=mywork.html><li>Portfolio</li></a>
+<a href=blog.html id=active><li>Blog</li></a>
+<a href=about.html><li>About Me</li></a>
+<a href=contact.html><li>Contact</li></a>
+</ul>
+</nav>
+<section id=introduction>
+<hgroup>
+<h1>Blog</h1>
+</hgroup>
+</section>
+<section id=after_intro>
+<nav id=nav2>
+<ul>
+<li id=all>All</li>
+<li id=technology>Technology</li>
+<li id=inspiration>Inspiration</li>
+<li id=tutorials>Tutorials</li>
+<li id=fun>Fun</li>
+<li id=design>Design</li>
+<li id=news>News</li>
+<li id=life>My Life</li>
+</ul>
+</nav>
+<section class=blog>
+<article class=news><a href=blog/newsite.html style=text-decoration:none>
+<h1> Welcome to the new site!</h1>
+<a href=blog/newsite.html> <img src="blog/images/posts/new site/newsite.png" id=blogpost_image></a></a>
+<footer id=date>March 18, 2013</footer>
+<a href="blog/newsite.html">
+<p>My new site is complete. It’s been a few months since I considered the redesign, and a month since I started coding it up. Everything has been rebuilt from the ground up and finished with a fresh coat of (green) paint. I plan to share my thoughts and views on all things technology and design on this website soon, so keep your eyes peeled. In the meantime, check out my work. And hopefully, this redesign represents the best iteration yet!</p>
+</a> </article>
+</section>
+<footer id=footer> MMXIII Designed by Joshua Raichur. <a href=http://creativecommons.org/licenses/by-sa/3.0/deed.en_US title="Creative Commons" target=_blank>Some Rights Reserved.</a></footer>
+</section>
+</div>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-39495557-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script></html>
